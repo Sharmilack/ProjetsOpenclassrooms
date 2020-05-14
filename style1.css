@@ -1,0 +1,318 @@
+.cv
+{
+	display: flex;
+	border:2px solid black;
+	width:780px;
+	margin:auto;
+}
+.gauche
+{
+	display:flex;
+	flex-direction: column;
+	width: 30%;
+	background-color: #38838f;
+}
+.gauche h2
+{
+	background-color: grey;
+	text-align: center;
+}
+.gauche p
+{
+	font-size: 12px;
+	text-align:justify;
+	padding: 20px 
+}
+.gauche
+{
+	border:1px black solid 0;
+	width:200px
+}
+.profile img
+{
+	border-radius:50%;
+}
+.profile
+{
+	border:1px black solid 0;
+	height:150px;
+	margin:auto;
+	text-align:center;
+	padding-top: 30px; 
+}
+.Contact
+{
+	border:1px black solid 0;
+	height: 260px;
+}
+.moi
+{
+	border:1px black solid 0;
+	height:400px;
+}
+.loisirs
+{
+	border:1px black solid 0;
+	height:250px;
+}
+.icon-big
+{
+	border:1px black solid 0;
+	height:120px;
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+}
+.icons
+{
+	border:1px black solid;
+	width:50px;
+	height:50px;
+	margin:auto;
+	border-radius:50%;
+}
+.droite
+{
+	display:flex;
+	flex-direction:column;
+	border:1px black solid 0;
+	width:70%;
+	margin:auto;
+}
+.heading
+{
+	border:1px black solid 0;
+	width:520px;
+	height:150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.name
+{
+	border:1px black solid 0;
+	height:65px;
+	font-size: 20px;
+}
+.profession
+{
+	border:1px black solid 0;
+	height:25px;
+	font-size: 19px;
+	position: relative;
+}
+.profession::after
+{
+	content:'';
+	height:1.5px;
+	width:10%;
+	position: absolute;
+	background-color: #38838f;
+	left: 0;
+	bottom:0;
+}
+.section-heading h3
+{
+	border-bottom:1px #38838f solid;
+}
+.sec-gauche
+{
+	float:left;
+	font-size: 14px;
+}
+.sec-droite
+{
+	margin-left:180px;
+}
+.formation
+{
+	border:1px black solid 0;
+	width:520px;
+	height:300px;
+}
+.experience
+{
+	border:1px black solid 0;
+	width:520px;
+	height:300px;
+}
+.recommendations
+{
+	border:1px black solid 0;
+	width:520px;
+	height: 200px;
+}
+.recommend-box
+{
+	border: 1px black solid 0;
+	width:480px;
+	height:110px;
+	margin:auto;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.section-gauche
+{
+	border:1px black solid 0;
+	font-size: 14px;
+	width:200px;
+	height: 100px;
+}
+.section-droite
+{
+	border:1px black solid 0;
+	font-size: 14px;
+	width:200px;
+	height: 100px;
+}
+.heading-section
+{
+	border:1px black solid 0;
+	width:520px;
+	height:50px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 2px #38838f solid;
+} 
+.logo
+{
+	margin-left:5px;
+	margin-top:6px;
+}
+.section-heading
+{
+	margin-left: 30px;
+}
+.description-f
+{
+	border:1px black solid 0;
+	width:320px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.detail-heading
+{ 
+	font-size:19px;
+}
+.sub-heading
+{
+	font-size: 14px;
+}
+.details-small
+{
+	font-size: 11px;
+}
+.dates-f
+{
+	border:1px black solid 0;
+	width:150px;
+	height: 100px;
+}
+.date-big-f
+{
+	border:1px black solid 0;
+	width:150px;
+	height:220px;
+}
+.date-big-e
+{
+	border:1px black solid 0;
+	width:150px;
+	height:290px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+.description-e
+{
+	border:1px black solid 0;
+	width:320px;
+	height: 75px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sec-droite description-e
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+.dates-e
+{
+	border:1px black solid 0;
+	width:150px;
+	height:65px;
+	margin-bottom:37px;
+}
+.sec-droite description-f
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;	
+}
+@media all and(max-width:780px)
+{
+	.cv
+	{
+		width:auto;
+		display: flex;
+		flex-direction:column;
+	}
+	.droite
+	{
+		width:100%;
+	}
+	.gauche
+	{
+		width:100%
+	}
+
+}
+@media screen and (max-width:500px)
+{
+	.cv
+	{
+		width:600px;
+		display: flex;
+		flex-direction:column;
+	}
+	.gauche
+	{
+		width:100%;
+	}
+	.gauche p
+	{
+		text-align:center;
+	}
+	.droite
+	{
+		width:100%
+	}
+	.heading
+	{
+		margin:auto;
+	}
+	.formation
+	{
+		margin:auto;
+	}
+	.experiences
+	{
+		margin:auto;
+	}
+	.recommendations
+	{
+		margin:auto;
+	}
+
+}
+@media screen and (max-width:500px)
+{
+
+}
