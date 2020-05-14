@@ -1,6 +1,7 @@
 .cv
 {
 	display: flex;
+	flex-direction: row;
 	border:2px solid black;
 	width:780px;
 	margin:auto;
@@ -30,40 +31,40 @@
 }
 .profile
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	height:15%;
-	width: 100%;
+	width: 99%;
 	margin:auto;
 	text-align: center;
-	margin-top:10px;
+	margin-top:50px;
 }
 .Contact
 {
-	border:1px black solid 0;
-	height:27%;
-	width: 100%;
+	border:1px solid 0;
+	height:26%;
+	width: 99%;
 }
 .moi
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	height:40%;
-	width: 100%;
+	width: 99%;
 }
 .loisirs
 {
-	border:1px black solid 0;
-	height:18%;
-	width: 100%;
+	border:1px solid 0;
+	height:19%;
+	width: 99%;
 }
 .icon-big
 {
-	border:1px black solid 0;
-	height:60%;
+	border:1px solid 0;
 	width: 95%;
 	margin: auto;
 	display: flex;
 	flex-direction:row;
 	align-content: center;
+	margin-bottom: 3px;
 }
 .icons
 {
@@ -77,28 +78,29 @@
 {
 	display:flex;
 	flex-direction:column;
-	border:1px black solid 0;
+	border:1px solid 0;
 	width:72%;
 	margin:auto;
 }
 .heading
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	width:90%;
 	height:160px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
+	margin-top: 30px;
 }
 .name
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	height:65px;
-	font-size: 20px;
+	font-size: 18px;
 }
 .profession
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	height:25px;
 	font-size: 19px;
 	position: relative;
@@ -115,43 +117,42 @@
 }
 .formation
 {
-	border:1px black solid 0;
-	width:98%;
+	border:1px solid 0;
+	width:95%;
 	height: 35%;
 	margin: auto;
 }
 .heading-section
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	width:95%;
-	height:50px;
+	height: 50px;
 	margin:auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	border-bottom: 2px #38838f solid;
 } 
 .logo
 {
 	width: 10%;
-	margin-top: 8px;
-	margin-left: 5px;
+	margin-top: 10px;
 }
 .section-heading
 {
-	width: 88%;
+	width: 90%;
 }
 .details-f
 {
-	border:1px black solid ;
-	width:95%;
+	border:1px solid 0;
+	width:90%;
 	margin: auto;
 }
 .first-f
 {
 	width:90%;
 	height:30%;
-	border:1px black solid;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -159,7 +160,7 @@
 .second-f
 {
 	width:90%;
-	border:1px black solid;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -167,7 +168,7 @@
 .third-f
 {
 	width:90%;
-	border:1px black solid;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -175,22 +176,23 @@
 .dates-f
 {
 	width:35%;
-	border:1px black solid;
+	border:1px solid 0;
 }
 .description-f
 {
-	width: 50%;
-	border:1px black solid;
+	width: 55%;
+	border:1px solid 0;
+	margin-top: 10px;
 }
 .experience
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	width:95%;
 	height:35%;
 }
 .details-e
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	width:95%;
 	margin: auto;
 }
@@ -198,7 +200,7 @@
 {
 	width:90%;
 	margin: auto;
-	border:1px black solid 0;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -207,7 +209,7 @@
 {
 	width:90%;
 	margin: auto;
-	border:1px black solid 0;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -216,7 +218,7 @@
 {
 	width:90%;
 	margin: auto;
-	border:1px black solid 0;
+	border:1px solid 0;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -224,23 +226,23 @@
 .dates-e
 {
 	width:35%;
-	border:1px black solid 0;
+	border:1px solid 0;
 }
 .description-e
 {
-	width: 50%;
-	border:1px black solid 0;
+	width: 60%;
+	border:1px solid 0;
 	margin-top: 10px;
 }
 .recommendations
 {
-	border:1px black solid 0;
-	width:95%
+	border:1px solid 0;
+	width:95%;
 	height:30%;
 }
 .recommend-box
 {
-	border: 1px black solid 0;
+	border: 1px solid 0;
 	width:85%;
 	margin: auto;
 	display: flex;
@@ -249,13 +251,13 @@
 }
 .section-gauche
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	font-size: 13px;
 	width:40%;
 }
 .section-droite
 {
-	border:1px black solid 0;
+	border:1px solid 0;
 	font-size: 13px;
 	width:40%;
 }
@@ -271,11 +273,13 @@
 {
 	font-size: 11px;
 }
-@media all and(max-width:780px)
+@media all and (max-width:780px)
 {
 	.cv
 	{
-		width:100%;
+		width:auto;
+		display: flex;
+		flex-direction:column;
 	}
 	.droite
 	{
@@ -283,15 +287,115 @@
 	}
 	.gauche
 	{
-		width:100%
+		width:100%;
+		align-items: center;
 	}
-
+	.gauche p
+	{
+		text-align: center;
+	}
+	.formation
+	{
+		width: 90%;
+		margin:auto;
+	}
+	.experiences
+	{
+		width: 90%;
+		margin:auto;
+	}
+	.recommendations
+	{
+		width: 90%;
+		margin:auto;
+	}
+	.dates-f
+	{
+		width: 70%;
+		margin: auto;
+		text-align: center;
+	}
+	.description-f
+	{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+	.first-f
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.second-f
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.third-f
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.dates-e
+	{
+		width: 70%;
+		margin: auto;
+		text-align: center;
+	}
+	.description-e
+	{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+	.first-e
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.second-e
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.third-e
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.heading
+	{
+		align-items:center;
+	}
+	.heading-section
+	{
+		width: 90%;
+		height: 56px;
+		margin: auto;
+		text-align: center;
+		font-size:13px;
+	}
+	.recommend-box
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.section-gauche
+	{
+		width: 90%;
+		text-align: center;
+	}
+	.section-droite
+	{
+		width: 90%;
+		text-align: center;
+	}
 }
 @media screen and (max-width:500px)
 {
 	.cv
 	{
-		width:100%;
+		width:auto;
 		display: flex;
 		flex-direction:column;
 	}
@@ -299,29 +403,9 @@
 	{
 		width:100%;
 	}
-	.gauche p
-	{
-		text-align:center;
-	}
 	.droite
 	{
 		width:100%
-	}
-	.heading
-	{
-		margin:auto;
-	}
-	.formation
-	{
-		margin:auto;
-	}
-	.experiences
-	{
-		margin:auto;
-	}
-	.recommendations
-	{
-		margin:auto;
 	}
 
 }
@@ -329,7 +413,7 @@
 {
 	.cv
 	{
-		width:100%;
+		width:auto;
 		display: flex;
 		flex-direction:column;
 	}
@@ -340,5 +424,9 @@
 	.droite
 	{
 		width:100%;	
+	}
+	.section-heading
+	{
+		font-size: 12px;
 	}
 }
