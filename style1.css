@@ -1,277 +1,272 @@
 .cv
 {
+	width: 780px;
 	display: flex;
 	flex-direction: row;
-	border:2px solid black;
-	width:780px;
-	margin:auto;
+	position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    font-size: 15px;
+    border: 2px black solid;
 }
 .gauche
 {
-	display:flex;
-	flex-direction: column;
-	width:28%;
-	background-color: #38838f;
-	border:1px solid 0;
-}
-.gauche h2
-{
-	background-color: grey;
-	text-align: center;
-}
-.gauche p
-{
-	font-size: 12px;
-	text-align:justify;
-	padding: 20px 
-}
-.profile img
-{
-	border-radius:50%;
+    width:30%;
+    background-color: #38838f;
 }
 .profile
 {
 	border:1px solid 0;
-	height:15%;
-	width: 99%;
-	margin:auto;
-	text-align: center;
-	margin-top:50px;
-}
-.Contact
-{
-	border:1px solid 0;
-	height:26%;
-	width: 99%;
-}
-.moi
-{
-	border:1px solid 0;
-	height:40%;
-	width: 99%;
-}
-.loisirs
-{
-	border:1px solid 0;
-	height:19%;
-	width: 99%;
-}
-.icon-big
-{
-	border:1px solid 0;
-	width: 95%;
+	width: 100%;
 	margin: auto;
-	display: flex;
-	flex-direction:row;
-	align-content: center;
-	margin-bottom: 3px;
+	text-align: center;
+	height: 15%;
 }
-.icons
+.profile img
 {
-	border:1px black solid;
-	width:50px;
-	height:50px;
-	margin:auto;
 	border-radius:50%;
+	 margin-top: 40px;
+}
+.box1
+{
+	border:1px solid 0;
+	width: 100%;
+	height: 25%;
+	margin: auto;
+}
+.box2
+{
+	border:1px solid 0;
+	width: 100%;
+	height: 47%;
+	margin: auto;
+}.box3
+{
+	border:1px solid 0;
+	width: 100%;
+	height: 12%;
+	margin: auto;
+	margin-bottom: 0px;
+}
+.top
+{
+	border:1px solid 0;
+	background-color:grey;
+	width: 99%;
+	text-align: center;
+}
+.iconesloisirs
+{
+    border: 1px solid 0;
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icones
+{
+    width: 55px;
+    height: 54px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.fa-running
+{
+	color: black;
+    font-size: 30px;
+    margin: auto;   
+}
+.fa-plane-departure
+{
+	color: black;
+    font-size: 30px;
+    margin: auto;   
+}
+.fa-swimming-pool
+{
+	color: black;
+    font-size: 30px;
+    margin: auto;   
 }
 .droite
 {
-	display:flex;
-	flex-direction:column;
-	border:1px solid 0;
-	width:72%;
-	margin:auto;
+	margin-top: 60px;
+    width:70%;
 }
-.heading
+.droite h3
 {
-	border:1px solid 0;
-	width:90%;
-	height:160px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-	margin-top: 30px;
+    border-bottom: 1px solid #38838f;
+    padding: 10px; 
 }
-.name
+.information
 {
-	border:1px solid 0;
-	height:65px;
-	font-size: 18px;
+    width: 85%;
+    margin: auto;
+    border:1px solid 0;
+    text-align: justify;
 }
-.profession
+.droite p
 {
-	border:1px solid 0;
-	height:25px;
-	font-size: 19px;
-	position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
 }
-.profession::after
+.droite h3
+ {
+    border-bottom: 1.5px solid #38838f;
+    padding: 10px;
+ }
+ .name
+ {
+ 	border: 1px solid 0;
+ 	width: 85%;
+ 	height: 150px;
+ 	margin: auto;
+ }
+ .name h2
+ {
+ 	margin: 0px 0px 0px 0px;
+ }
+ h1
+ {
+ 	font-size: 50px;
+ 	margin: 0px;
+    margin-top: 20px;
+ 	padding: 0px;
+ }
+h3
+ {
+    font-size: 20px;
+ }
+ h4
+ {
+ 	margin-top: 20px;
+    margin-bottom: 0px;
+ }
+ h5
+ {
+ 	margin-top: 0px;
+    margin-bottom: 10px;
+ }
+ul
 {
-	content:'';
-	height:1.5px;
-	width:10%;
-	position: absolute;
-	background-color: #38838f;
-	left: 0;
-	bottom:0;
+ 	display: flex;
+    padding: 0;
+    list-style:none;
+}
+.underline 
+{
+  border-bottom: 1px solid #38838f;
+}
+.prénom
+{
+    color : #38838f;
 }
 .formation
 {
-	border:1px solid 0;
-	width:95%;
-	height: 35%;
+	width: 85%;
 	margin: auto;
-}
-.heading-section
-{
-	border:1px solid 0;
-	width:95%;
-	height: 50px;
-	margin:auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	border-bottom: 2px #38838f solid;
-} 
-.logo
-{
-	width: 10%;
-	margin-top: 10px;
-}
-.section-heading
-{
-	width: 90%;
-}
-.details-f
-{
-	border:1px solid 0;
-	width:90%;
-	margin: auto;
-}
-.first-f
-{
-	width:90%;
-	height:30%;
-	border:1px solid 0;
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-}
-.second-f
-{
-	width:90%;
-	border:1px solid 0;
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-}
-.third-f
-{
-	width:90%;
-	border:1px solid 0;
-	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
-}
-.dates-f
-{
-	width:35%;
-	border:1px solid 0;
-}
-.description-f
-{
-	width: 55%;
-	border:1px solid 0;
-	margin-top: 10px;
 }
 .experience
 {
-	border:1px solid 0;
-	width:95%;
-	height:35%;
-}
-.details-e
-{
-	border:1px solid 0;
-	width:95%;
+	width: 85%;
 	margin: auto;
 }
-.first-e
+.recommandations
 {
-	width:90%;
+	width: 85%;
 	margin: auto;
-	border:1px solid 0;
+}
+.first
+{
+	border: 1px solid 0;
+	width: 100%;
 	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
+	flex-direction: row;
 }
-.second-e
+.second
 {
-	width:90%;
-	margin: auto;
-	border:1px solid 0;
+	border: 1px solid 0;
+	width: 100%;
 	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
+	flex-direction: row; 
 }
-.third-e
+.third
 {
-	width:90%;
-	margin: auto;
-	border:1px solid 0;
+	border: 1px solid 0;
+	width: 100%;
 	display: flex;
-	flex-direction:row;
-	justify-content: space-between;
+	flex-direction: row;
 }
-.dates-e
+.dateformation
 {
-	width:35%;
-	border:1px solid 0;
+	border: 1px solid 0;
+ 	width: 40%;
 }
-.description-e
+.CaptionFormations
 {
-	width: 60%;
-	border:1px solid 0;
-	margin-top: 10px;
+	border: 1px solid 0;
+	width: 55%;
 }
-.recommendations
+.dateExperience
 {
-	border:1px solid 0;
-	width:95%;
-	height:30%;
+	width: 40%;
+}
+.CaptionExperience
+{
+	width: 50%;
 }
 .recommend-box
 {
-	border: 1px solid 0;
-	width:85%;
+	border:1px solid 0;
+	width: 100%;
 	margin: auto;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: space-between;
 }
-.section-gauche
+.andreas
 {
 	border:1px solid 0;
-	font-size: 13px;
-	width:40%;
+	width: 35%;
 }
-.section-droite
+.simone
 {
 	border:1px solid 0;
-	font-size: 13px;
-	width:40%;
+	width: 35%;
 }
-.detail-heading
-{ 
-	font-size:16px;
-}
-.sub-heading
+.fa-dot-circle
 {
-	font-size: 13px;
+	margin-right: 10px;
+	font-size: 12px;
 }
-.details-small
+.fa-circle
 {
-	font-size: 11px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.fa-graduation-cap
+{
+	margin-right: 10px;
+	font-size: 25px;
+	color:#38838f;
+}
+.fa-briefcase
+{
+	margin-right: 10px;
+	font-size: 25px;
+	color:#38838f;
+}
+.fa-pen-alt
+{
+	margin-right: 10px;
+	font-size: 25px;
+	color:#38838f;
 }
 @media all and (max-width:780px)
 {
@@ -281,116 +276,83 @@
 		display: flex;
 		flex-direction:column;
 	}
-	.droite
-	{
-		width:100%;
-	}
 	.gauche
 	{
 		width:100%;
+	}
+	.droite
+	{
+		width:100%;
 		align-items: center;
-	}
-	.gauche p
-	{
 		text-align: center;
 	}
-	.formation
+	img
 	{
-		width: 90%;
-		margin:auto;
-	}
-	.experiences
-	{
-		width: 90%;
-		margin:auto;
-	}
-	.recommendations
-	{
-		width: 90%;
-		margin:auto;
-	}
-	.dates-f
-	{
-		width: 70%;
-		margin: auto;
-		text-align: center;
-	}
-	.description-f
-	{
-		width: 80%;
-		margin: auto;
-		text-align: center;
-	}
-	.first-f
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.second-f
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.third-f
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.dates-e
-	{
-		width: 70%;
-		margin: auto;
-		text-align: center;
-	}
-	.description-e
-	{
-		width: 80%;
-		margin: auto;
-		text-align: center;
-	}
-	.first-e
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.second-e
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.third-e
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.heading
-	{
-		align-items:center;
-	}
-	.heading-section
-	{
-		width: 90%;
-		height: 56px;
-		margin: auto;
-		text-align: center;
-		font-size:13px;
-	}
-	.recommend-box
-	{
-		display: flex;
-		flex-direction: column;
-	}
-	.section-gauche
-	{
-		width: 90%;
-		text-align: center;
-	}
-	.section-droite
-	{
-		width: 90%;
-		text-align: center;
-	}
-}
+        margin: auto;
+    }
+    .information 
+    {
+        text-align: center;
+    }
+    h3
+    {
+    	text-align: center;
+    }
+    .dateformation
+    {
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	text-align: center;
+    }
+    .dateExperience
+    {
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    	text-align: center;
+    }
+    .first
+    {
+    	width:100%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	text-align: center;
+    }
+    .second
+    {
+    	width:100%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	text-align: center;
+    }
+    .third
+    {
+    	width:100%;
+    	display: flex;
+    	flex-direction: column;
+    	text-align: center;
+    	align-items: center;
+    }
+    .recommend-box
+    {
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    }
+    .andreas
+    {
+    	width: 100%;
+    	align-items: center;
+    }
+    .simone
+    {
+    	width: 100%;
+    	align-items: center;
+    }
+}	
 @media screen and (max-width:500px)
 {
 	.cv
@@ -399,15 +361,22 @@
 		display: flex;
 		flex-direction:column;
 	}
+	h1
+	{
+		font-size: 40px;
+	}
+	.name h2
+	{
+		font-size: 25px;
+	}
 	.gauche
 	{
-		width:100%;
+		width: 100%;
 	}
 	.droite
 	{
-		width:100%
+		width: 100%;
 	}
-
 }
 @media screen and (max-width:350px)
 {
@@ -425,8 +394,12 @@
 	{
 		width:100%;	
 	}
-	.section-heading
+	h1
 	{
-		font-size: 12px;
+		font-size: 35px;
+	}
+	.name h2
+	{
+		font-size: 20px;
 	}
 }
